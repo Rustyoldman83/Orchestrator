@@ -1,3 +1,8 @@
+
+from flask import Flask, request, jsonify
+import requests
+import os
+
 app = Flask(__name__)
 
 MCP_BASE_URL = "https://chefskitchenbotmcp.onrender.com"  # Update if your backend URL changes
